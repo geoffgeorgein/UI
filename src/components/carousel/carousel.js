@@ -45,19 +45,24 @@ const Carousel = () => {
 
         </div>
 
-        <div className='arrowContainer1'>
+        <div className='arrows'>
+            <div className='arrowContainer1'>
         
 
-            <ArrowForwardRoundedIcon style={{color:"blue"}}/>
+                <ArrowForwardRoundedIcon style={{color:"blue"}}/>
 
-        </div>
+            </div>
 
-        <div className='arrowContainer2'>
-        
-            <ArrowBackRoundedIcon style={{color:"blue"}} />
+            <div className='arrowContainer2'>
             
+                <ArrowBackRoundedIcon style={{color:"blue"}} />
+                
+
+            </div>
 
         </div>
+
+       
 
         
 
