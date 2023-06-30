@@ -25,7 +25,7 @@ const Footer = () => {
         <div className='social'>
             <FacebookIcon className='icon' style={{color:'blue'}}/>
             <YouTubeIcon className='icon' style={{color:'blue'}}/>
-            <TwitterIcon className='icon' style={{color:'blue'}}/>
+            <TwitterIcon className='icon' style={{color:'blue'  }}/>
         </div>
 
         
