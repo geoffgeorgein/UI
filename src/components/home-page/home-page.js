@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../navbar/navbar';
 import Topsection from '../Top/topsection';
 import Middle from '../Middle/middle';
+import Carousel from '../carousel/carousel';
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
         <Navbar/>
         <Topsection/>
         <Middle/>
+        <Carousel/>
 
       </div>
 
