@@ -1,7 +1,7 @@
  .homepage{
-    width: 100%;
+    width: 100vw;
     display: flex   ;
-    max-width: 1250px;
+    max-width: 1450px;
     
     
     
@@ -59,6 +59,7 @@
 
         .top_section{
             width: 100%;
+            max-width: 1270px;
             margin: 15px 35px;
             background-image: linear-gradient(to left,rgba(139, 92, 246, 0),rgba(139, 92, 246, 1),rgba(139, 92, 246, 1));
             height: 408px;
@@ -67,8 +68,10 @@
 
             .left_container{
                 display: flex;
-                flex: 3;
+                
                 flex-direction: column;
+                z-index: 2;
+                max-width: 770px;
 
                 
                 justify-content: center;
@@ -132,7 +135,17 @@
 
             .right_container{
                 display: flex;
-                flex: 1;
+                
+                z-index: 1 ;
+                background-image: linear-gradient(to right,rgba(139, 92, 246, 0),rgba(139, 92, 246, 1),rgba(139, 92, 246, 1));
+
+                img{
+                    max-width: 600px;
+                    opacity: 48%;
+                    border-radius: 15px;
+                    
+                    
+                }
                 
             }
         }
@@ -143,12 +156,14 @@
             
             width: 100%;
             margin: 15px 35px;
+            justify-content: space-between;
 
 
 
 
 
             .left{
+                max-width: 768px;
 
                 h2{
                     color: rgba(30, 41, 59, 1);
@@ -193,12 +208,13 @@
 
             .right{
                 background-color: rgba(241, 245, 249, 1);
-                height: 280px;
+                height: 324px;
                 width:240px;
                 border-radius: 20px;
-                margin-right: 35px;
+                
                 justify-content: center;
                 align-items: center;
+                
                 
 
                 h3{
@@ -206,6 +222,27 @@
                     font-weight: 800;
                     font-size: 24px;
                     font-family: 'Hanken Grotesk', sans-serif;
+                }
+
+                li{
+                    list-style: none;
+
+                    .avatar_name{
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Hanken Grotesk', sans-serif;
+                    }
+                    .avatar_id{
+                        font-size: 12px;
+                        color: rgba(59, 130, 246, 1);
+                        
+                    }
+                }
+
+                img{
+                    width: 44px;
+                    height: 44px;
+                    
                 }
             }
         }

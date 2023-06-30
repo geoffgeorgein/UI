@@ -26,7 +26,9 @@ const Topsection = () => {
         </div>
 
         </div>
-        <div className='right_container'></div>
+        <div className='right_container'>
+            {/* <img src='/soundtrap-B2fNlHHI7dI-unsplash@2x.png'></img> */}
+        </div>
     </div> 
   )
 }

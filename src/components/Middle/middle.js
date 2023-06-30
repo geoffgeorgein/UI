@@ -42,6 +42,26 @@ const Middle = () => {
 
             <h3>Hosts & Guests</h3>
 
+            <ul>
+                <li> 
+                    <img src='/Rectangle.jpg'/>
+                    <p className='avatar_name'>Samantha James</p>
+                    <p className='avatar_id'>@samyjames</p>
+                </li>
+
+                <li> 
+                    <img src='/Rectangle.png'/>
+                    <p className='avatar_name'>Quentin Villard</p>
+                    <p className='avatar_id'>@quentin789</p>
+                </li>
+
+                <li> 
+                    <img src='/Rectangle (1).png'/>
+                    <p className='avatar_name'>Oliver Martinez</p>
+                    <p className='avatar_id'>@OliverMarti</p>
+                </li>
+            </ul>
+
 
         </div>
 
