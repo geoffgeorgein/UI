@@ -3,6 +3,7 @@ import Navbar from '../navbar/navbar';
 import Topsection from '../Top/topsection';
 import Middle from '../Middle/middle';
 import Carousel from '../carousel/carousel';
+import Bottom from '../Bottom/bottom';
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Topsection/>
         <Middle/>
         <Carousel/>
+        <Bottom/>
 
       </div>
 
